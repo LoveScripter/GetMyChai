@@ -1,44 +1,36 @@
-# GetMyChai
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Welcome to GetMyChai, a crowdfunding platform built using Next.js. GetMyChai allows users to raise funds for their projects or causes through the power of crowdfunding. With a seamless user experience and robust features, GetMyChai aims to make fundraising easy and effective.
+## Getting Started
 
-## Features
+First, run the development server:
 
-- **Crowdfunding Platform**: GetMyChai provides a platform for individuals and organizations to create crowdfunding campaigns for their projects, businesses, or personal needs.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-- **Secure Payment Transactions**: GetMyChai integrates with the Razorpay payment gateway to ensure secure and seamless payment transactions. Users can contribute to campaigns with confidence, knowing that their payments are protected.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- **User Authentication**: GetMyChai utilizes an authentication library to allow users to create accounts and securely log in. This ensures that users have personalized experiences and can manage their campaigns and contributions effectively.
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-## Technologies Used
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-- **Next.js**: GetMyChai is built using Next.js, a React framework that enables server-side rendering and provides a great developer experience.
+## Learn More
 
-- **Razorpay Payment Gateway**: GetMyChai integrates with Razorpay, a leading payment gateway in India, to facilitate secure payment transactions.
+To learn more about Next.js, take a look at the following resources:
 
-- **Authentication Library**: GetMyChai utilizes an authentication library (mention the specific library if known) to handle user authentication and account management.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## How It Works
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-1. **Create an Account**: Users can sign up for a GetMyChai account using their email address or social media accounts.
+## Deploy on Vercel
 
-2. **Create a Campaign**: Once logged in, users can create crowdfunding campaigns by providing details about their project, funding goal, and timeline.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-3. **Share the Campaign**: Users can share their campaigns with friends, family, and the wider community to attract supporters and raise funds.
-
-4. **Receive Contributions**: Supporters can contribute to campaigns by making secure payments through the Razorpay payment gateway.
-
-5. **Track Progress**: Campaign creators can track the progress of their campaigns in real-time, monitor contributions, and communicate with supporters.
-
-
-## Get Involved
-
-- **Support a Campaign**: Browse through the active campaigns on GetMyChai and support causes that resonate with you.
-
-- **Start a Campaign**: Have a project or cause you're passionate about? Start a crowdfunding campaign on GetMyChai and rally support from the community.
-
-- **Spread the Word**: Help us grow our community by sharing GetMyChai with your friends, family, and social networks.
-
----
-
-Thank you for visiting GetMyChai! Together, let's make a difference, one campaign at a time.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
